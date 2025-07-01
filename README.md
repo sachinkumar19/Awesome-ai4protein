@@ -27,11 +27,68 @@
 - **Protein structure prediction with deep learning** - Nature Methods 2022
 - **Machine learning in structural biology** - Current Opinion in Structural Biology 2021
 - **Deep learning for protein structure prediction** - Nature Reviews Molecular Cell Biology 2022
+- **Assessment of three-dimensional RNA structure prediction in CASP15** - Proteins 2023
+- **Protein structure prediction via deep learning: an in-depth review** - Frontiers in Pharmacology 2025
+
+### AI4Protein主要任务分类
+
+#### 1. 蛋白质结构预测 (Protein Structure Prediction)
+**任务描述**: 从氨基酸序列预测蛋白质的三维结构
+- **主要方法**: AlphaFold2/3, ESMFold, ColabFold, RoseTTAFold
+- **评价指标**:
+  - **GDT-TS (Global Distance Test - Total Score)**: 评估全局结构相似性，使用1Å、2Å、4Å、8Å截断距离
+  - **GDT-HA (Global Distance Test - High Accuracy)**: 高精度评估，使用0.5Å、1Å、2Å、4Å截断距离
+  - **RMSD (Root Mean Square Deviation)**: 均方根偏差，越小越好
+  - **TM-score**: 模板建模评分，>0.5表示相似拓扑结构
+  - **lDDT (Local Distance Difference Test)**: 局部距离差异测试，评估局部结构质量
+
+#### 2. 蛋白质功能预测 (Protein Function Prediction)
+**任务描述**: 预测蛋白质的生物学功能，包括GO注释、酶分类等
+- **主要方法**: DeepGO, GOLabeler, NetGO, ESM-based方法
+- **评价指标**:
+  - **CAFA评估**: Critical Assessment of Functional Annotation
+  - **Precision/Recall/F1-score**: 分类性能指标
+  - **AUPR (Area Under Precision-Recall curve)**: PR曲线下面积
+  - **Semantic similarity**: GO术语语义相似性
+  - **Matthews Correlation Coefficient (MCC)**: 马修斯相关系数
+
+#### 3. 蛋白质序列分析 (Protein Sequence Analysis)
+**任务描述**: 包括二级结构预测、接触预测、保守性分析等
+- **评价指标**:
+  - **Q3/Q8 accuracy**: 三态/八态二级结构预测准确率
+  - **Contact prediction accuracy**: 接触预测准确率 (Top-L/5, Top-L/2, Top-L)
+  - **INF (Interaction Network Fidelity)**: 相互作用网络保真度
+
+#### 4. 蛋白质设计 (Protein Design)
+**任务描述**: 设计具有特定功能的新蛋白质序列
+- **主要方法**: ProteinMPNN, RFDiffusion, ESMFold, AlphaFold3
+- **评价指标**:
+  - **Designability**: 可设计性评估
+  - **Structural feasibility**: 结构可行性
+  - **Functional validation**: 功能验证指标
+  - **Novelty and diversity**: 新颖性和多样性
+
+#### 5. 蛋白质相互作用预测 (Protein-Protein Interaction)
+**任务描述**: 预测蛋白质间的相互作用界面和亲和力
+- **评价指标**:
+  - **Interface RMSD**: 相互作用界面RMSD
+  - **DockQ Score**: 对接质量综合评分
+  - **CAPRI评估**: Critical Assessment of PRotein Interactions
+
+#### 6. 蛋白质-配体结合预测 (Protein-Ligand Binding)
+**任务描述**: 预测小分子与蛋白质的结合模式和亲和力
+- **评价指标**:
+  - **Binding affinity prediction**: 结合亲和力预测准确性
+  - **Pose prediction accuracy**: 结合构象预测准确性
+  - **RMSD of ligand pose**: 配体构象RMSD
 
 ### 入门资料
+
 - [蛋白质结构基础](https://www.rcsb.org/pages/about-us/what-is-pdb)
 - [生物信息学入门指南](https://bioinformatics.org/)
 - [机器学习在生物学中的应用](https://www.nature.com/articles/s41587-021-01091-5)
+- [CASP竞赛官网](https://predictioncenter.org/) - 蛋白质结构预测评估标准
+- [CAFA挑战赛](https://biofunctionprediction.org/) - 蛋白质功能预测评估
 
 ## 数据集
 
