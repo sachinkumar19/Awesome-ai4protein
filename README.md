@@ -139,10 +139,9 @@
 - **GOLabeler: improving sequence-based large-scale protein function prediction** - Bioinformatics 2020
 - **Language models enable zero-shot prediction of the effects of mutations on protein function** - [NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/hash/f51338d736f95dd42427296047067694-Abstract.html)
 - **Predicting a Protein's Stability under a Million Mutations** - [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/84b4b5cbb0388e48d143fa1c0acb2e4b-Abstract-Conference.html)
-- **Zero-shot prediction of mutation effects with multimodal deep representation learning guides protein engineering** - [Cell Research 2024](https://www.nature.com/articles/s41422-024-00986-w)
+- **Zero-shot prediction of mutation effects with multimodal deep representation learning guides protein engineering** - [Cell Research](https://www.nature.com/articles/s41422-024-00989-2)
 - **DDMut: predicting effects of mutations on protein stability using deep learning** - [Nucleic Acids Research 2023](https://academic.oup.com/nar/article/51/W1/W122/7160066)
-- **ESM-Effect: Predicting Mutation Effects with Evolution-Scale Models** - [ICLR 2025](https://openreview.net/forum?id=ESM-Effect)
-- **DDMut-PPI: predicting effects of mutations on protein–protein interactions using graph-based deep learning** - [Nucleic Acids Research 2024](https://academic.oup.com/nar/article/52/W1/W122/7571080)
+- **DDMut-PPI: predicting effects of mutations on protein–protein interactions using graph-based deep learning** - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38783112/)
 
 ## 蛋白质序列分析
 
@@ -167,7 +166,7 @@
 - **De novo protein design by deep network hallucination** - Nature 2021
 - **Self-play reinforcement learning guides protein engineering** - [Nature Machine Intelligence 2023](https://www.nature.com/articles/s42256-023-00691-9)
 - **ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning** - [arXiv 2025](https://arxiv.org/abs/2501.08437)
-- **A general temperature-guided language model to design proteins of enhanced stability and activity** - [Science Advances 2024](https://www.science.org/doi/10.1126/sciadv.adn6447)
+- **A general temperature-guided language model to design proteins of enhanced stability and activity** - [Science Advances 2024](https://www.science.org/doi/10.1126/sciadv.adr2641)
 
 ## 药物发现
 
@@ -206,18 +205,54 @@
 ## 会议和期刊
 
 ### 顶级会议
-- **[RECOMB](http://recomb.org/)** - 计算分子生物学研究
-- **[ISMB](https://www.iscb.org/ismb2024)** - 智能系统分子生物学
+
+#### 机器学习会议
 - **[NeurIPS](https://neurips.cc/)** - 神经信息处理系统
 - **[ICML](https://icml.cc/)** - 国际机器学习会议
+- **[ICLR](https://iclr.cc/)** - 国际学习表征会议
+- **[AAAI](https://aaai.org/)** - 美国人工智能协会会议
+- **[IJCAI](https://www.ijcai.org/)** - 国际人工智能联合会议
+
+#### 生物信息学会议
+- **[RECOMB](http://recomb.org/)** - 计算分子生物学研究
+- **[ISMB](https://www.iscb.org/ismb2024)** - 智能系统分子生物学
+- **[PSB](https://psb.stanford.edu/)** - 太平洋生物计算研讨会
+- **[WABI](https://algo-conference.org/2024/wabi/)** - 生物信息学算法研讨会
 
 ### 重要期刊
-- **Nature** - 自然科学综合期刊
-- **Science** - 科学综合期刊
-- **Cell** - 细胞生物学期刊
-- **Nature Methods** - 自然方法学期刊
-- **Bioinformatics** - 生物信息学期刊
-- **PNAS** - 美国国家科学院院刊
+
+#### 综合性顶级期刊
+- **[Nature](https://www.nature.com/)** - 自然科学综合期刊
+- **[Science](https://www.science.org/)** - 科学综合期刊
+- **[Cell](https://www.cell.com/)** - 细胞生物学期刊
+- **[PNAS](https://www.pnas.org/)** - 美国国家科学院院刊
+
+#### Nature系列期刊
+- **[Nature Methods](https://www.nature.com/nmeth/)** - 自然方法学期刊
+- **[Nature Biotechnology](https://www.nature.com/nbt/)** - 自然生物技术期刊
+- **[Nature Machine Intelligence](https://www.nature.com/natmachintell/)** - 自然机器智能期刊
+- **[Nature Computational Science](https://www.nature.com/natcomputsci/)** - 自然计算科学期刊
+- **[Nature Communications](https://www.nature.com/ncomms/)** - 自然通讯期刊
+- **[Nature Structural & Molecular Biology](https://www.nature.com/nsmb/)** - 自然结构与分子生物学期刊
+
+#### 生物信息学专业期刊
+- **[Bioinformatics](https://academic.oup.com/bioinformatics)** - 生物信息学期刊
+- **[Nucleic Acids Research](https://academic.oup.com/nar)** - 核酸研究期刊
+- **[BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)** - BMC生物信息学期刊
+- **[PLoS Computational Biology](https://journals.plos.org/ploscompbiol/)** - PLoS计算生物学期刊
+- **[Genome Biology](https://genomebiology.biomedcentral.com/)** - 基因组生物学期刊
+- **[Molecular Systems Biology](https://www.embopress.org/journal/17444292)** - 分子系统生物学期刊
+
+#### 蛋白质科学专业期刊
+- **[Proteins: Structure, Function, and Bioinformatics](https://onlinelibrary.wiley.com/journal/10970134)** - 蛋白质：结构、功能和生物信息学
+- **[Protein Science](https://onlinelibrary.wiley.com/journal/1469896x)** - 蛋白质科学期刊
+- **[Journal of Molecular Biology](https://www.sciencedirect.com/journal/journal-of-molecular-biology)** - 分子生物学期刊
+- **[Structure](https://www.cell.com/structure/home)** - 结构期刊
+
+#### 机器学习期刊
+- **[Journal of Machine Learning Research (JMLR)](https://jmlr.org/)** - 机器学习研究期刊
+- **[Machine Learning](https://link.springer.com/journal/10994)** - 机器学习期刊
+- **[IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)** - IEEE模式分析与机器智能汇刊
 
 ## 课程和教程
 
