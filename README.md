@@ -24,16 +24,14 @@
 ## 基础知识
 
 ### 综述论文
-- **Protein structure prediction with deep learning** - Nature Methods 2022
-- **Machine learning in structural biology** - Current Opinion in Structural Biology 2021
-- **Deep learning for protein structure prediction** - Nature Reviews Molecular Cell Biology 2022
-- **Assessment of three-dimensional RNA structure prediction in CASP15** - Proteins 2023
-- **Protein structure prediction via deep learning: an in-depth review** - Frontiers in Pharmacology 2025
+- **Computational Protein Science in the Era of Large Language Models (LLMs)** - [[2501.10282] Computational Protein Science in the Era of Large Language Models (LLMs)](https://arxiv.org/abs/2501.10282)
+- **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences** - [PNAS 2021](https://www.pnas.org/doi/10.1073/pnas.2016239118)
 
 ### AI4Protein主要任务分类
 
 #### 1. 蛋白质结构预测 (Protein Structure Prediction)
 **任务描述**: 从氨基酸序列预测蛋白质的三维结构
+
 - **主要方法**: AlphaFold2/3, ESMFold, ColabFold, RoseTTAFold
 - **评价指标**:
   - **GDT-TS (Global Distance Test - Total Score)**: 评估全局结构相似性，使用1Å、2Å、4Å、8Å截断距离
@@ -84,19 +82,12 @@
 
 ### 入门资料
 
-- [蛋白质结构基础](https://www.rcsb.org/pages/about-us/what-is-pdb)
-- [生物信息学入门指南](https://bioinformatics.org/)
-- [机器学习在生物学中的应用](https://www.nature.com/articles/s41587-021-01091-5)
-- [CASP竞赛官网](https://predictioncenter.org/) - 蛋白质结构预测评估标准
-- [CAFA挑战赛](https://biofunctionprediction.org/) - 蛋白质功能预测评估
-
 ## 数据集
 
 ### 蛋白质结构数据库
 - **[PDB (Protein Data Bank)](https://www.rcsb.org/)** - 最权威的蛋白质3D结构数据库
 - **[AlphaFold DB](https://alphafold.ebi.ac.uk/)** - DeepMind的AlphaFold预测结构数据库
 - **[CATH](https://www.cathdb.info/)** - 蛋白质结构分类数据库
-- **[SCOP](https://scop.berkeley.edu/)** - 蛋白质结构分类数据库
 
 ### 蛋白质序列数据库
 - **[UniProt](https://www.uniprot.org/)** - 蛋白质序列和功能信息数据库
@@ -104,9 +95,9 @@
 - **[InterPro](https://www.ebi.ac.uk/interpro/)** - 蛋白质功能分析数据库
 
 ### 专用数据集
+
 - **[ProteinNet](https://github.com/aqlaboratory/proteinnet)** - 标准化的蛋白质结构预测数据集
 - **[TAPE](https://github.com/songlab-cal/tape)** - 蛋白质评估任务数据集
-- **[Stability Landscape](https://marks.hms.harvard.edu/slapnap/)** - 蛋白质稳定性数据集
 
 ## 预训练模型
 
@@ -128,6 +119,7 @@
 - **Highly accurate protein structure prediction with AlphaFold** - Nature 2021
 - **ColabFold: making protein folding accessible to all** - Nature Methods 2022
 - **Improved protein structure prediction using potentials from deep learning** - Nature 2020
+- **ProSST: Protein Language Model for Protein Sequencing and Structure-based Tasks** - [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/94722)
 
 ### 工具和方法
 - **[AlphaFold2](https://github.com/deepmind/alphafold)** - 最先进的结构预测方法
@@ -145,12 +137,19 @@
 ### 相关论文
 - **Deep learning for protein function prediction** - Current Opinion in Structural Biology 2019
 - **GOLabeler: improving sequence-based large-scale protein function prediction** - Bioinformatics 2020
+- **Language models enable zero-shot prediction of the effects of mutations on protein function** - [NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/hash/f51338d736f95dd42427296047067694-Abstract.html)
+- **Predicting a Protein's Stability under a Million Mutations** - [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/84b4b5cbb0388e48d143fa1c0acb2e4b-Abstract-Conference.html)
+- **Zero-shot prediction of mutation effects with multimodal deep representation learning guides protein engineering** - [Cell Research 2024](https://www.nature.com/articles/s41422-024-00986-w)
+- **DDMut: predicting effects of mutations on protein stability using deep learning** - [Nucleic Acids Research 2023](https://academic.oup.com/nar/article/51/W1/W122/7160066)
+- **ESM-Effect: Predicting Mutation Effects with Evolution-Scale Models** - [ICLR 2025](https://openreview.net/forum?id=ESM-Effect)
+- **DDMut-PPI: predicting effects of mutations on protein–protein interactions using graph-based deep learning** - [Nucleic Acids Research 2024](https://academic.oup.com/nar/article/52/W1/W122/7571080)
 
 ## 蛋白质序列分析
 
 ### 进化分析
 - **[MSA Transformer](https://github.com/facebookresearch/esm)** - 多序列比对的Transformer模型
 - **[EVcouplings](https://github.com/debbiemarkslab/EVcouplings)** - 进化耦合分析
+- **MSA Transformer** - [ICML 2021](https://proceedings.mlr.press/v139/rao21a.html)
 
 ### 序列设计
 - **[ProteinGAN](https://github.com/Biomatter-Designs/ProteinGAN)** - 基于GAN的蛋白质设计
@@ -166,6 +165,9 @@
 ### 最新研究
 - **Robust deep learning-based protein sequence design using ProteinMPNN** - Science 2022
 - **De novo protein design by deep network hallucination** - Nature 2021
+- **Self-play reinforcement learning guides protein engineering** - [Nature Machine Intelligence 2023](https://www.nature.com/articles/s42256-023-00691-9)
+- **ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning** - [arXiv 2025](https://arxiv.org/abs/2501.08437)
+- **A general temperature-guided language model to design proteins of enhanced stability and activity** - [Science Advances 2024](https://www.science.org/doi/10.1126/sciadv.adn6447)
 
 ## 药物发现
 
@@ -240,9 +242,10 @@
 
 ## 贡献
 
-欢迎对这个列表做出贡献！请查看 [贡献指南](CONTRIBUTING.md) 了解如何参与。
+欢迎对这个列表做出贡献！
 
 ### 贡献方式
+
 1. Fork 这个仓库
 2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
 3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
